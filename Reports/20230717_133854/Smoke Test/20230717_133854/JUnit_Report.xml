@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke Test" time="26.372" tests="1" failures="0" errors="0">
+   <testsuite name="Smoke Test" tests="1" failures="0" errors="0" time="26.372" skipped="0" timestamp="2023-07-17 13:39:02" hostname="I4222 - IND-CHN-LT11586" id="Test Suites/Smoke Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Indium Software\\git\\katalonTest\\Reports\\20230717_133854\\Smoke Test\\20230717_133854"/>
+         <property name="logFiles" value="C:\\Users\\Indium Software\\git\\katalonTest\\Reports\\20230717_133854\\Smoke Test\\20230717_133854\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Indium Software\\git\\katalonTest\\Reports\\20230717_133854\\Smoke Test\\20230717_133854\\1689581363019.png, C:\\Users\\Indium Software\\git\\katalonTest\\Reports\\20230717_133854\\Smoke Test\\20230717_133854\\1689581364855.png"/>
+         <property name="hostName" value="I4222 - IND-CHN-LT11586"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="192.168.231.135"/>
+         <property name="sessionId" value="7e1566ceac6fc44762acbd49f6b1bd44"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/AUT-1" time="25.653" classname="Test Cases/AUT-1" status="PASSED">
+         <system-out><![CDATA[2023-07-17 13:39:03 - [TEST_CASE][PASSED] - Test Cases/AUT-1: Test Cases/AUT-1
+
+2023-07-17 13:39:04 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://demowebshop.tricentis.com/'
+
+2023-07-17 13:39:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-17 13:39:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-17 13:39:15 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demowebshop.tricentis.com/'
+
+2023-07-17 13:39:15 - [TEST_STEP][PASSED] - click(findTestObject("Welcome Page Links/Page_Demo Web Shop/Log in Link")): Object: 'Object Repository/Welcome Page Links/Page_Demo Web Shop/Log in Link' is clicked on
+
+2023-07-17 13:39:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Welcome Page Links/Page_Demo Web Shop/Log in Link' is clicked on
+
+2023-07-17 13:39:17 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Login page elements/Page_Demo Web Shop. Login/Returning Customer text"), 30): Object 'Object Repository/Login page elements/Page_Demo Web Shop. Login/Returning Customer text' is present
+
+2023-07-17 13:39:18 - [MESSAGE][PASSED] - Object 'Object Repository/Login page elements/Page_Demo Web Shop. Login/Returning Customer text' is present
+
+2023-07-17 13:39:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login page elements/Page_Demo Web Shop. Login/Email Text Box"), Username): Keys 'vijaykumar220997@gmail.com' sent to object: 'Object Repository/Login page elements/Page_Demo Web Shop. Login/Email Text Box'
+
+2023-07-17 13:39:18 - [MESSAGE][PASSED] - Keys 'vijaykumar220997@gmail.com' sent to object: 'Object Repository/Login page elements/Page_Demo Web Shop. Login/Email Text Box'
+
+2023-07-17 13:39:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login page elements/Page_Demo Web Shop. Login/Password Text box"), Password): Keys 'Vijay@123' sent to object: 'Object Repository/Login page elements/Page_Demo Web Shop. Login/Password Text box'
+
+2023-07-17 13:39:19 - [MESSAGE][PASSED] - Keys 'Vijay@123' sent to object: 'Object Repository/Login page elements/Page_Demo Web Shop. Login/Password Text box'
+
+2023-07-17 13:39:19 - [TEST_STEP][PASSED] - click(findTestObject("Login page elements/Page_Demo Web Shop. Login/RememberMe Check box")): Object: 'Object Repository/Login page elements/Page_Demo Web Shop. Login/RememberMe Check box' is clicked on
+
+2023-07-17 13:39:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Login page elements/Page_Demo Web Shop. Login/RememberMe Check box' is clicked on
+
+2023-07-17 13:39:20 - [TEST_STEP][PASSED] - click(findTestObject("Login page elements/Page_Demo Web Shop. Login/Login button")): Object: 'Object Repository/Login page elements/Page_Demo Web Shop. Login/Login button' is clicked on
+
+2023-07-17 13:39:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Login page elements/Page_Demo Web Shop. Login/Login button' is clicked on
+
+2023-07-17 13:39:22 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Login page elements/Page_Demo Web Shop/Wecome gmail"), 30): Object 'Object Repository/Login page elements/Page_Demo Web Shop/Wecome gmail' is present
+
+2023-07-17 13:39:22 - [MESSAGE][PASSED] - Object 'Object Repository/Login page elements/Page_Demo Web Shop/Wecome gmail' is present
+
+2023-07-17 13:39:22 - [TEST_STEP][PASSED] - takeElementScreenshot(findTestObject("Login page elements/Page_Demo Web Shop/Wecome gmail")): Taking screenshot successfully
+
+2023-07-17 13:39:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-17 13:39:24 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-07-17 13:39:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Indium Software\\git\\katalonTest\\Reports\\20230717_133854\\Smoke Test\\20230717_133854\\1689581363019.png]]
+
+2023-07-17 13:39:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login page elements/Page_Demo Web Shop/Log out Button"), 10): Object 'Object Repository/Login page elements/Page_Demo Web Shop/Log out Button' is present
+
+2023-07-17 13:39:24 - [MESSAGE][PASSED] - Object 'Object Repository/Login page elements/Page_Demo Web Shop/Log out Button' is present
+
+2023-07-17 13:39:24 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2023-07-17 13:39:26 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-07-17 13:39:27 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Indium Software\\git\\katalonTest\\Reports\\20230717_133854\\Smoke Test\\20230717_133854\\1689581364855.png]]
+
+2023-07-17 13:39:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-17 13:39:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-17 13:39:02 - [TEST_SUITE][PASSED] - Smoke Test: Test Cases/AUT-1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -23,6 +23,8 @@ WebUI.click(findTestObject('Welcome Page Links/Page_Demo Web Shop/Log in Link'))
 
 WebUI.waitForElementPresent(findTestObject('Login page elements/Page_Demo Web Shop. Login/Returning Customer text'), 30)
 
+WebUI.takeScreenshot()
+
 WebUI.sendKeys(findTestObject('Login page elements/Page_Demo Web Shop. Login/Email Text Box'), GlobalVariable.Username)
 
 WebUI.sendKeys(findTestObject('Login page elements/Page_Demo Web Shop. Login/Password Text box'), GlobalVariable.Password)
