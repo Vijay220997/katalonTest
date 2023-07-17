@@ -21,7 +21,23 @@ WebUI.openBrowser(GlobalVariable.URL)
 
 WebUI.click(findTestObject('Welcome Page Links/Page_Demo Web Shop/Log in Link'))
 
-WebUI.waitForElementPresent(findTestObject('Login page elements/Page_Demo Web Shop. Login/Returning Customer text'), 0)
+WebUI.waitForElementPresent(findTestObject('Login page elements/Page_Demo Web Shop. Login/Returning Customer text'), 30)
 
 WebUI.sendKeys(findTestObject('Login page elements/Page_Demo Web Shop. Login/Email Text Box'), GlobalVariable.Username)
+
+WebUI.sendKeys(findTestObject('Login page elements/Page_Demo Web Shop. Login/Password Text box'), GlobalVariable.Password)
+
+WebUI.click(findTestObject('Login page elements/Page_Demo Web Shop. Login/RememberMe Check box'))
+
+WebUI.click(findTestObject('Login page elements/Page_Demo Web Shop. Login/Login button'))
+
+WebUI.waitForElementPresent(findTestObject('Login page elements/Page_Demo Web Shop/Wecome gmail'), 30)
+
+WebUI.takeElementScreenshot(findTestObject('Login page elements/Page_Demo Web Shop/Wecome gmail'))
+
+WebUI.verifyElementPresent(findTestObject('Login page elements/Page_Demo Web Shop/Log out Button'), 10)
+
+WebUI.takeFullPageScreenshot()
+
+WebUI.closeBrowser()
 
